@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Profile</title>
+    <style>
+      /* Basic Reset */
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Helvetica Neue", sans-serif;
+        background-color: #fafafa;
+        color: #37474f;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+      .profile-container {
+        background-color: #ffffff;
+        border-radius: 12px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        width: 400px;
+        max-width: 100%;
+      }
+
+      .profile-header {
+        background-color: #7e7e7e;
+        color: white;
+        text-align: center;
+        padding: 20px;
+      }
+
+      .profile-photo {
+        border-radius: 50%;
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+        border: 5px solid #ffffff;
+        margin-bottom: 15px;
+      }
+
+      .name {
+        font-size: 26px;
+        margin-bottom: 5px;
+      }
+
+      .age {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+
+      .profile-body {
+        padding: 20px;
+      }
+
+      h2 {
+        font-size: 22px;
+        margin-bottom: 10px;
+        color: #7e7e7e;
+      }
+
+      p {
+        font-size: 16px;
+        margin-bottom: 20px;
+      }
+
+      .hobbies-list {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      .hobbies-list li {
+        font-size: 16px;
+        color: #37474f;
+        background-color: #f1f1f1;
+        margin: 5px 0;
+        padding: 10px;
+        border-radius: 8px;
+        transition: background-color 0.3s;
+      }
+
+      .hobbies-list li:hover {
+        background-color: #b2dfdb;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="profile-container">
+      <div class="profile-header">
+        <img src="havid.jpg" style="height: 100%;" alt="Your Name" class="profile-photo" />
+        <h1 class="name">Havid Rosihandanu</h1>
+        <p class="age">Age: 18</p>
+      </div>
+      <div class="profile-body">
+        <h2>About Me</h2>
+        <p>
+          Hello! I'm passionate about Programming, and I love Nature. I'm always eager to learn new things and take on exciting
+          challenges. Here are some of my hobbies:
+        </p>
+        <h2>Hobbies</h2>
+        <ul class="hobbies-list">
+          <li>Reading</li>
+          <li>Travelling</li>
+          <li>Photography</li>
+          <li>Coding</li>
+        </ul>
+        <h2>Favorite Music</h2>
+        <ul class="hobbies-list">
+        <li><a href="https://youtu.be/gGBrkYE-GgQ?si=N40ZS14IU2MX_pSV" target="_blank" style="text-decoration: none;">Gala-gala</a></li>
+      </div>
+    </div>
+  </body>
+</html>
